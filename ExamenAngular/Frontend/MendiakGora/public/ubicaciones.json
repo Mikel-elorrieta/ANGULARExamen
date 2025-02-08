@@ -1,0 +1,10 @@
+{
+    "ubicaciones": [
+      { "id": 1, "nombre": { "es": "Monte Gorbea", "eu": "Gorbeia mendia" }, "direccion": { "es": "Parque Natural Gorbea", "eu": "Gorbeia Parke Naturala" }, "lat": 43.0444, "lng": -2.8391 },
+      { "id": 2, "nombre": { "es": "Pico Aneto", "eu": "Aneto mendia" }, "direccion": { "es": "Pirineos, Huesca", "eu": "Pirinioak, Huesca" }, "lat": 42.6319, "lng": 0.6560 },
+      { "id": 3, "nombre": { "es": "Picos de Europa", "eu": "Europako Mendiguneak" }, "direccion": { "es": "Asturias-Cantabria-León", "eu": "Asturias-Kantabria-Leon" }, "lat": 43.1875, "lng": -4.8194 },
+      { "id": 4, "nombre": { "es": "Sierra de Guadarrama", "eu": "Guadarrama Mendilerroa" }, "direccion": { "es": "Madrid - Segovia", "eu": "Madril - Segovia" }, "lat": 40.8500, "lng": -3.9500 },
+      { "id": 5, "nombre": { "es": "Macizo del Montseny", "eu": "Montseny Mendigunea" }, "direccion": { "es": "Cataluña", "eu": "Katalunia" }, "lat": 41.7803, "lng": 2.3956 },
+      { "id": 6, "nombre": { "es": "Teide", "eu": "Teide" }, "direccion": { "es": "Tenerife, Canarias", "eu": "Tenerife, Kanariak" }, "lat": 28.2724, "lng": -16.6422 }
+    ]
+  }

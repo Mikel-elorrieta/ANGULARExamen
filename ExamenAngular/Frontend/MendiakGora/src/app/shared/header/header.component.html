@@ -1,0 +1,26 @@
+<header class="app-header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <div class="d-flex align-items-center w-100">
+
+        <div class="me-auto">
+          <img src="/logo.jpg" alt="Elorrieta Erreka Mari" class="logo" style="height: 50px;" (click)="goHome()">
+        </div>
+
+        <div class="ms-auto">
+          <select name="language" id="language-select" class="form-select" (change)="translatetext($event)">
+            <option value="eu">EU</option>
+            <option value="es">ES</option>
+          </select>
+        </div>
+
+        <div class="ms-3" *ngIf="logued">
+          <button mat-button class="btn btn-danger" (click)="logout()">
+            {{'logout' | translate}}
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+</header>

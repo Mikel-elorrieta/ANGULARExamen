@@ -1,0 +1,29 @@
+.social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social li a {
+  color: #cccccc;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social li a:hover {
+  color: #007bff;
+}
+.hookbottom{
+    background-color: #1e2732;
+    color: #cccccc;
+    font-size: 14px;
+    text-align: center;
+}
