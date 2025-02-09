@@ -1,10 +1,173 @@
 {
-    "ubicaciones": [
-      { "id": 1, "nombre": { "es": "Monte Gorbea", "eu": "Gorbeia mendia" }, "direccion": { "es": "Parque Natural Gorbea", "eu": "Gorbeia Parke Naturala" }, "lat": 43.0444, "lng": -2.8391 },
-      { "id": 2, "nombre": { "es": "Pico Aneto", "eu": "Aneto mendia" }, "direccion": { "es": "Pirineos, Huesca", "eu": "Pirinioak, Huesca" }, "lat": 42.6319, "lng": 0.6560 },
-      { "id": 3, "nombre": { "es": "Picos de Europa", "eu": "Europako Mendiguneak" }, "direccion": { "es": "Asturias-Cantabria-León", "eu": "Asturias-Kantabria-Leon" }, "lat": 43.1875, "lng": -4.8194 },
-      { "id": 4, "nombre": { "es": "Sierra de Guadarrama", "eu": "Guadarrama Mendilerroa" }, "direccion": { "es": "Madrid - Segovia", "eu": "Madril - Segovia" }, "lat": 40.8500, "lng": -3.9500 },
-      { "id": 5, "nombre": { "es": "Macizo del Montseny", "eu": "Montseny Mendigunea" }, "direccion": { "es": "Cataluña", "eu": "Katalunia" }, "lat": 41.7803, "lng": 2.3956 },
-      { "id": 6, "nombre": { "es": "Teide", "eu": "Teide" }, "direccion": { "es": "Tenerife, Canarias", "eu": "Tenerife, Kanariak" }, "lat": 28.2724, "lng": -16.6422 }
-    ]
-  }
+  "ubicaciones": [
+    {
+      "id": "1",
+      "nombre": {
+        "es": "Monte Gorbea",
+        "eu": "Gorbeia mendia"
+      },
+      "direccion": {
+        "es": "Parque Natural Gorbea",
+        "eu": "Gorbeia Parke Naturala"
+      },
+      "lat": 43.0444,
+      "lng": -2.8391
+    },
+    {
+      "id": "2",
+      "nombre": {
+        "es": "Pico Aneto",
+        "eu": "Aneto mendia"
+      },
+      "direccion": {
+        "es": "Pirineos, Huesca",
+        "eu": "Pirinioak, Huesca"
+      },
+      "lat": 42.6319,
+      "lng": 0.656
+    },
+    {
+      "id": "4",
+      "nombre": {
+        "es": "Sierra de Guadarrama",
+        "eu": "Guadarrama Mendilerroa"
+      },
+      "direccion": {
+        "es": "Madrid - Segovia",
+        "eu": "Madril - Segovia"
+      },
+      "lat": 40.85,
+      "lng": -3.95
+    },
+    {
+      "id": "5",
+      "nombre": {
+        "es": "Macizo del Montseny",
+        "eu": "Montseny Mendigunea"
+      },
+      "direccion": {
+        "es": "Cataluña",
+        "eu": "Katalunia"
+      },
+      "lat": 41.7803,
+      "lng": 2.3956
+    },
+    {
+      "id": "6",
+      "nombre": {
+        "es": "Teide",
+        "eu": "Teide"
+      },
+      "direccion": {
+        "es": "Tenerife, Canarias",
+        "eu": "Tenerife, Kanariak"
+      },
+      "lat": 28.2724,
+      "lng": -16.6422
+    },
+    {
+      "id": "7",
+      "nombre": {
+        "es": "Monte Perdido",
+        "eu": "Monte Perdido"
+      },
+      "direccion": {
+        "es": "Pirineos, Huesca",
+        "eu": "Pirinioak, Huesca"
+      },
+      "lat": 42.6758,
+      "lng": 0.032
+    },
+    {
+      "id": "10",
+      "nombre": {
+        "es": "Peña Ubiña",
+        "eu": "Peña Ubiña"
+      },
+      "direccion": {
+        "es": "Asturias - León",
+        "eu": "Asturias - Leon"
+      },
+      "lat": 42.9792,
+      "lng": -5.8533
+    },
+    {
+      "id": "11",
+      "nombre": {
+        "es": "Monte Picos de Europa",
+        "eu": "Picos de Europa mendia"
+      },
+      "direccion": {
+        "es": "Asturias - Cantabria",
+        "eu": "Asturias - Kantabria"
+      },
+      "lat": 43.1833,
+      "lng": -4.8906
+    },
+    {
+      "id": "12",
+      "nombre": {
+        "es": "La Maliciosa",
+        "eu": "La Maliciosa"
+      },
+      "direccion": {
+        "es": "Madrid",
+        "eu": "Madril"
+      },
+      "lat": 40.7167,
+      "lng": -3.9292
+    },
+    {
+      "id": "13",
+      "nombre": {
+        "es": "Cerro Toloño",
+        "eu": "Toloño mendi"
+      },
+      "direccion": {
+        "es": "La Rioja la mala",
+        "eu": "La Rioja"
+      },
+      "lat": 42.6721,
+      "lng": -2.8453
+    },
+    {
+      "id": "14",
+      "nombre": {
+        "es": "Cumbre Vieja",
+        "eu": "Cumbre Vieja"
+      },
+      "direccion": {
+        "es": "La Palma, Canarias",
+        "eu": "La Palma, Kanariak"
+      },
+      "lat": 28.6724,
+      "lng": -17.8314
+    },
+    {
+      "id": "15",
+      "nombre": {
+        "es": "Operacion Ogro",
+        "eu": "Operacion Ogro"
+      },
+      "direccion": {
+        "es": "Asesinato de Carrero Blanco",
+        "eu": "Asesinato de Carrero Blanco"
+      },
+      "lat": 40.43427,
+      "lng": -3.685
+    },
+    {
+      "id": "16",
+      "nombre": {
+        "es": "puente colgante bilbao",
+        "eu": "puente colgante bilbao"
+      },
+      "direccion": {
+        "es": "puente colgante bilbao",
+        "eu": "puente colgante bilbao"
+      },
+      "lat": 43.323055555556,
+      "lng": -3.0169444444444
+    }
+  ]
+}

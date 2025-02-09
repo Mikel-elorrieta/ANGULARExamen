@@ -1,1 +1,18 @@
-<p>home works!</p>
+<mat-drawer-container class="drawer-container">
+    <mat-drawer #drawer mode="side" class="drawer"></mat-drawer>
+    <mat-drawer-content>
+        <mat-toolbar class="toolbar">
+            <div class="menu-button-container">
+                <button type="button" mat-button (click)="drawer.toggle()" class="menu-button">
+                    <mat-icon>menu</mat-icon>
+                    <p>MENU</p>
+                </button>
+            </div>
+        </mat-toolbar>
+        <div class="content">
+            <app-home-admin *ngIf="logUser?.rol_castellano === 'Administrador'"></app-home-admin>
+            <app-home-organi *ngIf="logUser?.rol_castellano === 'Organizador'"></app-home-organi>
+            <app-home-parti *ngIf="logUser?.rol_castellano === 'Participante'"></app-home-parti>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>

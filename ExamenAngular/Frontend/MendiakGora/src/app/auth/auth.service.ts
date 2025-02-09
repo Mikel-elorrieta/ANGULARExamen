@@ -12,8 +12,8 @@ export class AuthService {
 
   constructor(private http: HttpClient, private router: Router) { }
 
-  login(user: string, password: string) {
-    return this.http.post<any>(`${environment.baseUrl}/login`, { user, password });
+  login(email: string, password: string) {
+    return this.http.post<any>(`${environment.baseUrl}/login`, { email, password } );
   }
 
   guardar(auth: IUser) {

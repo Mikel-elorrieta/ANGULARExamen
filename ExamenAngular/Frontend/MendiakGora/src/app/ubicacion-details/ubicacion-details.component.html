@@ -1,0 +1,15 @@
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h2>{{ ubicacion?.nombre?.es }}</h2>
+        </div>
+        <div class="card-body">
+            <p class="card-text">{{ ubicacion?.direccion?.es }}</p>
+            <p class="card-text"><strong>Latitud:</strong> {{ ubicacion?.lat }}</p>
+            <p class="card-text"><strong>Longitud:</strong> {{ ubicacion?.lng }}</p>
+        </div>
+    </div>
+    <div class="mt-4" style="height: 400px;">
+        <app-mapa [id]="id" class="w-100 h-100 border rounded shadow-sm"></app-mapa>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<div class="card shadow p-4">
+    <h2 class="text-center mb-3">
+      {{ usuario.id === undefined ? ('CREAR_USUARIO' | translate) : ('EDITAR_USUARIO' | translate) }}
+    </h2>  <form (ngSubmit)="onSubmit()" novalidate>
+      <div class="mb-3">
+        <label for="email" class="form-label">{{ 'email' | translate }}</label>
+        <input type="email" id="email" name="email" class="form-control" required [(ngModel)]="usuario.email">
+      </div>
+
+      <div class="mb-3">
+        <label for="password" class="form-label">{{ 'password' | translate }}</label>
+        <input type="password" id="password" name="password" class="form-control" required [(ngModel)]="usuario.password">
+      </div>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">{{ 'name' | translate }}</label>
+        <input type="text" id="nombre" name="nombre" class="form-control" required [(ngModel)]="usuario.nombre">
+      </div>
+      <div class="mb-3">
+        <label for="tipo" class="form-label">{{ 'tipo' | translate }}</label>
+        <select required [(ngModel)]="tipo" name="tipo" class="form-control">
+            <option [value]="1">{{ 'admin' | translate }}</option>
+            <option [value]="2">{{ 'organizer' | translate }}</option>
+            <option [value]="3">{{ 'user' | translate }}</option>
+        </select>
+      </div>
+        <button type="submit" class="btn btn-primary w-100">
+        {{ usuario.id === undefined ? ('CREAR_USUARIO' | translate) : ('EDITAR_USUARIO' | translate) }}
+      </button>  
+    </form>
+  </div>
+  

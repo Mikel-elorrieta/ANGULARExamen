@@ -42,7 +42,7 @@ export class HeaderComponent {
 
    
 
-    this.router.navigate(['']);
+    this.router.navigate(['SDASDASD']);
     
   }
 

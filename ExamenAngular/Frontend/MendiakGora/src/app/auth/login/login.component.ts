@@ -25,7 +25,7 @@ import { style } from '@angular/animations';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-  Username: string = '';
+  Email: string = '';
   Pass: string = '';
   _User!: IUser;
 
@@ -41,32 +41,33 @@ ngOnInit() {
 }
 
   login() {
-    if (!this.Username || !this.Pass) {
+    console.log('Email:', this.Email);
+    console.log('Pass:', this.Pass);
+    if (!this.Email || !this.Pass) {
       this.mostrarSnackbar('Introduce usuario y contraseña');
       return;
     }
 
-    this.authService.login(this.Username, this.Pass).subscribe(
-      (response) => {
+    this.authService.login(this.Email, this.Pass).subscribe({
+      next: (response) => {
         this._User = response.user;
-
+        console.log(this._User);
         if (this._User) {
           this.authService.guardar(this._User);
-
           this.mostrarSnackbar('Inicio de sesión exitoso: ' + this._User.nombre);
 
           this.gohome();
         } else {
-          this.Username = '';
+          this.Email = '';
           this.Pass = '';
           this.mostrarSnackbar('Credenciales incorrectas');
         }
       },
-      (error) => {
+      error: (error) => {
         console.error('Error en la solicitud de login', error);
         this.mostrarSnackbar('Ocurrió un error al intentar iniciar sesión');
       }
-    );
+    });
   }
 
   gohome() {
